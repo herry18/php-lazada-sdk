@@ -1,0 +1,18 @@
+{
+    "name": "lodi/lazop-sdk-php",
+    "description": "Lazada Open API PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lodi",
+            "email": "hello@lodi.id"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "lodi\\PHPLazadaSDK\\": "src/"
+        }
+    }
+}
