@@ -1,5 +1,5 @@
 {
-    "name": "lodi/lazop-sdk-php",
+    "name": "lodi/php-lazada-sdk",
     "description": "Lazada Open API PHP SDK",
     "type": "library",
     "license": "MIT",
