@@ -12,7 +12,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "lodi\\PHPLazadaSDK\\": "src/"
+            "lodi\\PHPLazadaSDK\\": "src/Lazop/"
         }
     }
 }
