@@ -30,7 +30,7 @@ class LazopClient
 		$length = strlen($url);
 	    if($length == 0)
 	    {    
-			throw new Exception("url is empty",0);
+			throw new \Exception("url is empty",0);
 		}
 		$this->gatewayUrl = $url;
 		$this->appkey = $appkey;
@@ -110,7 +110,7 @@ class LazopClient
 		if ($errno)
 		{
 			curl_close($ch);
-			throw new Exception($errno,0);
+			throw new \Exception($errno,0);
 		}
 		else
 		{
@@ -118,7 +118,7 @@ class LazopClient
 			curl_close($ch);
 			if (200 !== $httpStatusCode)
 			{
-				throw new Exception($reponse,$httpStatusCode);
+				throw new \Exception($reponse,$httpStatusCode);
 			}
 		}
 
@@ -206,7 +206,7 @@ class LazopClient
 		if ($errno)
 		{
 			curl_close($ch);
-			throw new Exception($errno,0);
+			throw new \Exception($errno,0);
 		}
 		else
 		{
@@ -214,7 +214,7 @@ class LazopClient
 			curl_close($ch);
 			if (200 !== $httpStatusCode)
 			{
-				throw new Exception($response,$httpStatusCode);
+				throw new \Exception($response,$httpStatusCode);
 			}
 		}
 
