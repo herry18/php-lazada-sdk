@@ -69,7 +69,7 @@ class LazopClient
 
 	    curl_setopt($ch, CURLOPT_URL, $url);
 	    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_FAILONERROR, false);
+            curl_setopt($ch, CURLOPT_FAILONERROR, false);
 	    curl_setopt($ch, CURLOPT_HEADER, false);
 	    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 
@@ -103,7 +103,7 @@ class LazopClient
 			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 		}
 
-	    $output = curl_exec($ch);
+	        $reponse = curl_exec($ch);
 		
 		$errno = curl_errno($ch);
 
