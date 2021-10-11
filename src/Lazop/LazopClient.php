@@ -122,7 +122,7 @@ class LazopClient
 			}
 		}
 
-		return $output;
+		return $reponse;
 	}
 
 	public function curl_post($url, $postFields = null, $fileFields = null,$headerFields = null)
